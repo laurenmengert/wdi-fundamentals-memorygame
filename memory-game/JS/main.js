@@ -14,9 +14,9 @@ function checkForMatch(){
 	}
 }
 
-function flipCard(cardID) {
+function flipCard(cardId) {
 	console.log("User flipped" + cards[cardId]);
-	cardsInPlay.push(cards[cardID]);
+	cardsInPlay.push(cards[cardId]);
 
 if (cardsInPlay.length === 2) {
 	checkForMatch()
@@ -25,7 +25,7 @@ if (cardsInPlay.length === 2) {
 
 
 flipCard(0);
-flipCard(1);
+flipCard(3);
 
 
 //In your main.js file, after the lines with the cards and cardsInPlay arrays, create a 
